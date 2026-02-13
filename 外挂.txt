@@ -161,8 +161,8 @@ end
 --[[
 local new = Tabs.new:AddLeftGroupbox('新闻','rocket')
 
-new:AddLabel("[+]开发 JackEyeKL")
-new:AddLabel("支持是我们的最大的贡献😜")
+new:AddLabel("[+]开发 棍母")
+new:AddLabel("爱来自东方project")
 new:AddLabel("脚本更新于1.31 晚上 10:42 时间")
 --]]
 
