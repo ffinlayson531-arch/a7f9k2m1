@@ -53,7 +53,7 @@ Library:SetWatermarkVisibility(true)
                 frameCounter = 0
             end
 
-            Library:SetWatermark(string.format('LightStar | %d FPS | JackEyeKL | %d ping ', math.floor(fps), math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())))
+            Library:SetWatermark(string.format('棍母 | %d FPS | JackEyeKL | %d ping ', math.floor(fps), math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())))
         end)
     end
 
@@ -85,8 +85,8 @@ Library.ForceCheckbox = false -- 默认点击开关盒子 (false / true)
 Library.ShowToggleFrameInKeybinds = true 
 
 local Window = Library:CreateWindow({
-	Title = "LightStar",
-	Footer = "LightStar团队脚本-discord.gg/BW55cR7Z [来源Nolsaken]",
+	Title = "棍母",
+	Footer = "棍母团队脚本-discord.gg/BW55cR7Z [来源Nolsaken]",
 	Icon = 95816097006870,
 })
 --biohazard
