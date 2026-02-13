@@ -161,8 +161,8 @@ end
 --[[
 local new = Tabs.new:AddLeftGroupbox('新闻','rocket')
 
-new:AddLabel("[+]开发 JackEyeKL")
-new:AddLabel("支持是我们的最大的贡献😜")
+new:AddLabel("[+]开发 棍母")
+new:AddLabel("爱来自东方project")
 new:AddLabel("脚本更新于1.31 晚上 10:42 时间")
 --]]
 
@@ -239,7 +239,7 @@ local information = Tabs.new:AddLeftGroupbox('信息','info')
 information:AddDivider()
 
 information:AddLabel("欢迎用户"..game.Players.LocalPlayer.DisplayName.." ("..game.Players.LocalPlayer.Name..")")
-information:AddLabel("支持是我们的最大的贡献😜")
+information:AddLabel("爱来自东方project")
 
 information:AddDivider()
 
@@ -248,9 +248,9 @@ information:AddLabel("执行器 : " ..identifyexecutor())
 
 local information = Tabs.new:AddRightGroupbox('信息','info')
 
-information:AddLabel("Hello亲爱的使用LightStar者")
+information:AddLabel("Hello亲爱的棍母使用者")
 information:AddLabel("这个服务器脚本停更")
-information:AddLabel("我不是跑路了")
+information:AddLabel("我跑路了！")
 information:AddLabel("我的账号已封禁")
 information:AddLabel("我正在制作其他新的服务器脚本")
 information:AddLabel("谢谢你的观看！！！")
@@ -259,9 +259,9 @@ information:AddLabel("谢谢你的观看！！！")
 
 local Contributor = Tabs.new:AddRightGroupbox('鸣谢&贡献者','handshake')
 
-Contributor:AddLabel("[<b><font color=\"rgb(0, 0, 255)\">JackEyeKL</font></b>] - 脚本所有者")
+Contributor:AddLabel("[<b><font color=\"rgb(0, 0, 255)\">棍母</font></b>] - 脚本所有者")
 
-Contributor:AddLabel("[<b><font color=\"rgb(128, 0, 128)\">Yuxingchen</font></b>] - 提供Nol原脚本终极源码")
+Contributor:AddLabel("[<b><font color=\"rgb(128, 0, 128)\">gunmu</font></b>] - 提供Nol原脚本终极源码")
 
 local KillerSurvival = Tabs.Main:AddLeftGroupbox("玩家","user")
 
@@ -316,7 +316,7 @@ KillerSurvival:AddToggle("AntiStun", {
 KillerSurvival:AddDivider()
 
 KillerSurvival:AddToggle("AlwaysSprint", {
-    Text = "一直保持奔跑状态",
+    Text = "otto无限冲刺♿️",
     Default = false,
     Callback = function (call)
         _G.alwaysSprint = call
@@ -466,7 +466,7 @@ KillerSurvival:AddButton({
 
 KillerSurvival:AddButton({
     Text = "<font color=\"rgb(0, 0, 255)\">欺骗伪造用户模式</font>",
-    Tooltip = "拍视频和直播时点击它 你的信息 的 昵称 和 用户名 改变了!!!可以让别人挂不了你 相当于欺骗!",
+    Tooltip = "拍视频和直播时点击它 你的信息 的 昵称 和 用户名 变成棍母!!!可以让别人挂不了你 相当于欺骗!",
     Func = function()
 local HttpService = game:GetService("HttpService")
 local players = game:GetService('Players')
@@ -593,7 +593,7 @@ local originalPlayerValues = {}
 hiddenStats = false
 
 KillerSurvival:AddToggle("AntiHiddenStats", {
-    Text = "开户隐藏数据",
+    Text = "把棍母数据开户了",
     Tooltip = "开启后强制显示玩家的胜负、时长等隐私数据",
     Default = false,
     Callback = function(state)
